@@ -1,0 +1,99 @@
+body{
+    font-family: "Noto Sans Tagalog", sans-serif;
+}
+
+.navbar,
+footer{
+    background-image:url("./Images/vermes.jpg");
+    background-size: cover;
+
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+.bi-facebook,
+.bi-instagram,
+.bi-whatsapp{
+    font-size: 2.5rem;
+    margin-right:1rem;
+}
+
+.color-link{
+    color: #fff;
+}
+
+#cabecalho .nav .nav-link.active{
+    color: #e15f41;
+    background-color: #fff;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover{
+    color: #fff;
+}
+
+.navbar-toggler{
+    background-color: #ffeae6;
+}
+
+.section-title{
+    font-family: Pacifico, cursive;
+}
+
+#sobre-o-restaurante,
+#cardapio{
+    background-color:#E0B100;
+}
+
+.text-colored {
+    color: #e15f41;
+}
+
+.nav-cardapio .nav-link.active,
+#fale-conosco button{
+    background-color: #e15f41;
+    color: #fff;
+}
+
+.nav-cardapio .nav-link:hover{
+    color: #e15f41;
+}
+
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+
+.social-links a{
+    text-decoration: none;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 80vh;
+}
+
+.geidi{
+    height: 30vh;
+}
+.book img{
+    height: 30vh;
+}
+
+#fale-conosco form {
+    max-width: 50%;
+}
+
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
+
